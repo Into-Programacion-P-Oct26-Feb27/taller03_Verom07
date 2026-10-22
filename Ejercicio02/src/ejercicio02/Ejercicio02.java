@@ -16,23 +16,14 @@ public class Ejercicio02 {
      */
     public static void main(String[] args) {
         // Resolución del problema
-        int var1 = 4;
-        int var2 = 7;
-   
-        System.out.println(Math.pow(5,2));
-        System.out.println(Math.pow(3,3));       
-        
-        double m = Math.pow(5,2);
-        System.out.println(m);
-        double n = Math.pow(3,3);
-        System.out.println(n);
-        ( m + n / var1 ) + var2;
+        double var1 = Math.pow(5,2);
+        double var2 = Math.pow(3,3);
+        int var3 = 4;
+        int var4 = 7;
+       
+        System.out.println((var1 + var2) / var3
+                + var4);
                
-     
-                
     }
-    
-    
-    
-    
+  
 }
