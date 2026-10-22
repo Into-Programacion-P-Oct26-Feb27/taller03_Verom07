@@ -15,7 +15,12 @@ public class Ejercicio05 {
      */
     public static void main(String[] args) {
         // Resolución del problema
-        
+        double variable1 = Math.pow(3,3);
+        double variable2 = Math.sqrt(81);
+        int variable3 = 40;
+          
+        System.out.println(variable1 + variable2 
+                <= variable3);
     }
     
 }
